@@ -51,5 +51,5 @@ app.get('/todos/:id', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Started on Port {port}`);
+    console.log(`Started on Port ${port}`);
 });
